@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		ABC3BBBA2CD0D07F004092A8 /* CoreMotionPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC3BBB92CD0D07F004092A8 /* CoreMotionPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABC3BBC12CD0D0A4004092A8 /* CoreMotionPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC3BBC02CD0D0A4004092A8 /* CoreMotionPlugin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ABC3BBB62CD0D07F004092A8 /* CoreMotionPlugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CoreMotionPlugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABC3BBB92CD0D07F004092A8 /* CoreMotionPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreMotionPlugin.h; sourceTree = "<group>"; };
+		ABC3BBC02CD0D0A4004092A8 /* CoreMotionPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMotionPlugin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 			isa = PBXGroup;
 			children = (
 				ABC3BBB92CD0D07F004092A8 /* CoreMotionPlugin.h */,
+				ABC3BBC02CD0D0A4004092A8 /* CoreMotionPlugin.swift */,
 			);
 			path = CoreMotionPlugin;
 			sourceTree = "<group>";
@@ -93,6 +96,7 @@
 				TargetAttributes = {
 					ABC3BBB52CD0D07F004092A8 = {
 						CreatedOnToolsVersion = 15.3;
+						LastSwiftMigration = 1530;
 					};
 				};
 			};
@@ -129,6 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABC3BBC12CD0D0A4004092A8 /* CoreMotionPlugin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +269,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -288,6 +294,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,6 +304,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;

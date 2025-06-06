@@ -1,0 +1,27 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/fatakhillahkhaqo/Documents/Challenges/CoreMotionPlugin/Products/CoreMotionPlugin.framework/CoreMotionPlugin'
+relocations:
+  - { offsetInCU: 0x34, offset: 0x3106D, size: 0x8, addend: 0x0, symName: _CoreMotionPluginVersionString, symObjAddr: 0x0, symBinAddr: 0x4E00, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x310A2, size: 0x8, addend: 0x0, symName: _CoreMotionPluginVersionNumber, symObjAddr: 0x40, symBinAddr: 0x4E40, symSize: 0x0 }
+  - { offsetInCU: 0x4F, offset: 0x31107, size: 0x8, addend: 0x0, symName: '_$s16CoreMotionPlugin0aB7ManagerC6sharedACvpZ', symObjAddr: 0x4790, symBinAddr: 0xC420, symSize: 0x0 }
+  - { offsetInCU: 0x13F, offset: 0x311F7, size: 0x8, addend: 0x0, symName: '_$s16CoreMotionPlugin0aB7ManagerC6shared_WZ', symObjAddr: 0xA4, symBinAddr: 0x40A4, symSize: 0x3C }
+  - { offsetInCU: 0x1C3, offset: 0x3127B, size: 0x8, addend: 0x0, symName: '_$sSo14CMDeviceMotionCSgs5Error_pSgIeggg_ACSo7NSErrorCSgIeyByy_TR', symObjAddr: 0x334, symBinAddr: 0x4334, symSize: 0x74 }
+  - { offsetInCU: 0x1FD, offset: 0x312B5, size: 0x8, addend: 0x0, symName: _StartGyroUpdates, symObjAddr: 0x62C, symBinAddr: 0x462C, symSize: 0x4C }
+  - { offsetInCU: 0x235, offset: 0x312ED, size: 0x8, addend: 0x0, symName: '_$s16CoreMotionPlugin16StartGyroUpdatesyyF', symObjAddr: 0x678, symBinAddr: 0x4678, symSize: 0x4C }
+  - { offsetInCU: 0x268, offset: 0x31320, size: 0x8, addend: 0x0, symName: _StopGyroUpdates, symObjAddr: 0x6C4, symBinAddr: 0x46C4, symSize: 0x74 }
+  - { offsetInCU: 0x2C0, offset: 0x31378, size: 0x8, addend: 0x0, symName: '_$s16CoreMotionPlugin15StopGyroUpdatesyyF', symObjAddr: 0x738, symBinAddr: 0x4738, symSize: 0x74 }
+  - { offsetInCU: 0x302, offset: 0x313BA, size: 0x8, addend: 0x0, symName: '_$s16CoreMotionPlugin0aB7ManagerCMU', symObjAddr: 0x910, symBinAddr: 0x4910, symSize: 0x8 }
+  - { offsetInCU: 0x316, offset: 0x313CE, size: 0x8, addend: 0x0, symName: '_$s16CoreMotionPlugin0aB7ManagerCMa', symObjAddr: 0x918, symBinAddr: 0x4918, symSize: 0x3C }
+  - { offsetInCU: 0x32A, offset: 0x313E2, size: 0x8, addend: 0x0, symName: '_$s16CoreMotionPlugin0aB7ManagerCMr', symObjAddr: 0x954, symBinAddr: 0x4954, symSize: 0x8C }
+  - { offsetInCU: 0x33E, offset: 0x313F6, size: 0x8, addend: 0x0, symName: '_$s7Combine9PublishedVySdGMa', symObjAddr: 0x9E0, symBinAddr: 0x49E0, symSize: 0x54 }
+  - { offsetInCU: 0x352, offset: 0x3140A, size: 0x8, addend: 0x0, symName: '_$s16CoreMotionPlugin0aB7ManagerC7Combine16ObservableObjectAA0G19WillChangePublisherAdEP_AD0J0PWT', symObjAddr: 0xA34, symBinAddr: 0x4A34, symSize: 0xC }
+  - { offsetInCU: 0x366, offset: 0x3141E, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0xA40, symBinAddr: 0x4A40, symSize: 0x40 }
+  - { offsetInCU: 0x37A, offset: 0x31432, size: 0x8, addend: 0x0, symName: '_$s16CoreMotionPlugin0aB7ManagerC16startGyroUpdatesyyFySo08CMDeviceB0CSg_s5Error_pSgtcfU_TA', symObjAddr: 0xAA4, symBinAddr: 0x4AA4, symSize: 0x1B0 }
+  - { offsetInCU: 0x441, offset: 0x314F9, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0xC54, symBinAddr: 0x4C54, symSize: 0x10 }
+  - { offsetInCU: 0x455, offset: 0x3150D, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0xC64, symBinAddr: 0x4C64, symSize: 0x8 }
+  - { offsetInCU: 0x5F3, offset: 0x316AB, size: 0x8, addend: 0x0, symName: '_$s16CoreMotionPlugin0aB7ManagerC7Combine16ObservableObjectAadEP16objectWillChange0giJ9PublisherQzvgTW', symObjAddr: 0x438, symBinAddr: 0x4438, symSize: 0x3C }
+  - { offsetInCU: 0x61B, offset: 0x316D3, size: 0x8, addend: 0x0, symName: '_$s16CoreMotionPlugin0aB7ManagerCACyc33_20A109509284DB31CC1B427E7E042621Llfc', symObjAddr: 0xE0, symBinAddr: 0x40E0, symSize: 0x134 }
+  - { offsetInCU: 0x706, offset: 0x317BE, size: 0x8, addend: 0x0, symName: '_$s16CoreMotionPlugin0aB7ManagerC16startGyroUpdatesyyF', symObjAddr: 0x214, symBinAddr: 0x4214, symSize: 0x120 }
+  - { offsetInCU: 0x795, offset: 0x3184D, size: 0x8, addend: 0x0, symName: '_$s16CoreMotionPlugin0aB7ManagerCfD', symObjAddr: 0x3A8, symBinAddr: 0x43A8, symSize: 0x90 }
+...
